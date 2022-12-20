@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    tools:context=".minigameActivity">
+
+
+    <ImageView
+        android:id="@+id/ponntt4"
+        android:layout_width="450dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginRight="-40dp"
+        android:src="@drawable/ponttt4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent="0.25" />
+
+    <Button
+        android:id="@+id/rolbtn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/thehaneul"
+        android:text="룰렛"
+        android:textSize="21sp"
+        app:backgroundTint="@color/purple_500"
+        app:iconTint="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/mole"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="두더지"
+        android:fontFamily="@font/thehaneul"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/worldcup"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/thehaneul"
+        android:text="월드컵"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45999998" />
+
+    <Button
+        android:id="@+id/zebi"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/thehaneul"
+        android:text="제비뽑기"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45999998" />
+
+    <Button
+        android:id="@+id/sadari"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/thehaneul"
+        android:text="사다리"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58000004" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

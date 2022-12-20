@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".chickActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="320dp"
+                android:layout_marginLeft="-35dp"
+                android:layout_marginTop="-25dp"
+                android:src="@drawable/chi1" />
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="310dp"
+                android:layout_marginLeft="-35dp"
+                android:layout_marginTop="-50dp"
+                android:src="@drawable/chi2" />
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="-35dp"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/chi3"/>
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="305dp"
+                android:layout_marginLeft="-45dp"
+                android:layout_marginTop="-40dp"
+                android:src="@drawable/chi4"/>
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="305dp"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="-30dp"
+                android:src="@drawable/chi5"/>
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="305dp"
+                android:layout_marginLeft="-30dp"
+                android:layout_marginTop="-35dp"
+                android:src="@drawable/chi6" />
+
+            <ImageView
+                android:layout_width="480dp"
+                android:layout_height="320dp"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="-40dp"
+                android:src="@drawable/chi7" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
